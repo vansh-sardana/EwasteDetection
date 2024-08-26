@@ -10,7 +10,7 @@ const Place = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full">
+      <div className="bg-white p-8 rounded-lg shadow-lg max-w-sm w-full flex flex-col items-center justify-center">
         <p className="text-lg text-gray-700 mb-6 text-center">
           Place the item on the shelf of the bin and then press this button.
         </p>
